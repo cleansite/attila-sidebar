@@ -1,0 +1,122 @@
+{
+  "name": "attila-sidebar",
+  "description": "Ghost Theme",
+  "demo": "https://attila.peteramende.de",
+  "version": "3.5.0",
+  "engines": {
+    "ghost": ">=5.0.0"
+  },
+  "license": "MIT",
+  "screenshots": {
+    "desktop": "src/screenshot-desktop.jpg",
+    "mobile": "src/screenshot-mobile.jpg"
+  },
+  "author": {
+    "name": "Danny Clark",
+    "email": "danny@errnerr.co.uk",
+    "url": "https://errnerr.co.uk"
+  },
+  "gpm": {
+    "type": "theme",
+    "categories": [
+      "Minimal",
+      "Portfolio"
+    ]
+  },
+  "keywords": [
+    "ghost-theme",
+    "ghost",
+    "theme"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "grunt": "^1.5.3",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-compress": "^2.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-uglify": "^5.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-postcss": "^0.9.0",
+    "grunt-sass": "^3.1.0",
+    "load-grunt-tasks": "^5.1.0",
+    "node-sass": "^7.0.1"
+  },
+  "config": {
+    "posts_per_page": 8,
+    "image_sizes": {
+      "s": {
+        "width": 320
+      },
+      "m": {
+        "width": 640
+      },
+      "l": {
+        "width": 960
+      },
+      "xl": {
+        "width": 1920
+      }
+    },
+    "card_assets": true,
+    "custom": {
+      "color_scheme": {
+        "type": "select",
+        "options": [
+          "Light",
+          "Dark",
+          "System"
+        ],
+        "default": "System"
+      },
+      "instagram": {
+        "type": "text",
+         "default": ""
+      },
+      "facebook": {
+        "type": "text",
+         "default": ""
+      },
+      "linkedin": {
+        "type": "text",
+         "default": ""
+      },
+      "behance": {
+        "type": "text",
+         "default": ""
+      },
+      "twitter": {
+        "type": "text",
+         "default": ""
+      },
+      "plausible_url": {
+        "type": "text",
+         "default": ""
+      },
+      "darkmode_accent_color": {
+        "type": "color",
+        "default": "#ff6633"
+      },
+      "homepage_heading": {
+        "type": "text",
+        "default": "Hi, I'm Joe Blogs ✌️"
+      },
+      "homepage_description": {
+        "type": "text",
+        "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat."
+      },
+      "homepage_image": {
+        "type": "image"
+      },
+      "homepage_cta": {
+        "type": "text",
+        "default": "Hire me"
+      },
+      "homepage_cta_link": {
+        "type": "text"
+      }
+    }
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}
