@@ -2,7 +2,7 @@
   "name": "attila-sidebar",
   "description": "Ghost Theme",
   "demo": "https://attila.peteramende.de",
-  "version": "3.5.0",
+  "version": "3.5.1",
   "engines": {
     "ghost": ">=5.0.0"
   },
@@ -85,10 +85,6 @@
          "default": ""
       },
       "twitter": {
-        "type": "text",
-         "default": ""
-      },
-      "plausible_url": {
         "type": "text",
          "default": ""
       },
